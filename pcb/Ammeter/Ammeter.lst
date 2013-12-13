@@ -1,0 +1,84 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 11/29/2013 10:15:17 AM
+#Cmp ( order = Reference )
+| C1         18pF        
+| C2         18pF        
+| C3         1uF         
+| C4         0.1uF       
+| C5         0.1uF       
+| C6         0.1uF       
+| C7         0.1uF       
+| C8         22uF        
+| C9         4.7uF       
+| C10        0.1uF       
+| C11        10uF        
+| C12        1uF         
+| C13        20nF        
+| CON1       USB-MINI-B  
+| D1         LED         
+| D2         LED         
+| D3         LED         
+| J1         Program     
+| J2         BATTERY     
+| J3         CONSOLE     
+| R1         220         
+| R2         22          
+| R3         22          
+| R4         10K         
+| R5         220         
+| R6         1M          
+| R7         220         
+| R8         0           
+| R9         10K         
+| SENSE1     0.1         
+| SW1        SW_PUSH     
+| U1         ATMEGA32U4  
+| U2         SIP32411    
+| U3         ZXCT1041    
+| U4         AD7680      
+| U5         ADP160-4.2  
+| U6         MAX4707     
+| X1         16MHz       
+#End Cmp
+
+#Cmp ( order = Value )
+| 18pF         C1        
+| 18pF         C2        
+| 20nF         C13       
+| 0.1uF        C4        
+| 0.1uF        C5        
+| 0.1uF        C6        
+| 0.1uF        C7        
+| 0.1uF        C10       
+| 1uF          C3        
+| 1uF          C12       
+| 4.7uF        C9        
+| 10uF         C11       
+| 22uF         C8        
+| USB-MINI-B   CON1      
+| LED          D1        
+| LED          D2        
+| LED          D3        
+| Program      J1        
+| CONSOLE      J3        
+| BATTERY      J2        
+| 0            R8        
+| 22           R2        
+| 22           R3        
+| 220          R1        
+| 220          R5        
+| 220          R7        
+| 10K          R4        
+| 10K          R9        
+| 1M           R6        
+| 0.1          SENSE1    
+| SW_PUSH      SW1       
+| AD7680       U4        
+| ATMEGA32U4   U1        
+| SIP32411     U2        
+| ZXCT1041     U3        
+| ADP160-4.2   U5        
+| MAX4707      U6        
+| 16MHz        X1        
+#End Cmp
+
+#End List
